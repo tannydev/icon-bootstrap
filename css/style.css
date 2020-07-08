@@ -101,6 +101,11 @@ p{
 .icon{
     display: inline-block;
 }
+.col-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
 .fourth-section{
     background-color: #f3f3f3ba;
     height: 400px;
@@ -440,6 +445,12 @@ p {
 }
 }
 @media (min-width:320px ) and (max-width:575px ) {
+        .col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
         .hero h3 {
     font-size: 23px;
 }
@@ -519,7 +530,7 @@ p {
     padding: 0px 0;
 }
 p {
-    font-size: 15px;
+    font-size: 13px;
 }
    .link3 a {
     padding: 0px 20px;
